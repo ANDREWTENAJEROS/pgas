@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ANDREWTENAJEROS/pgas/issues"
   },
-  "homepage": "https://github.com/ANDREWTENAJEROS/pgas#readme"
+  "homepage": "https://github.com/ANDREWTENAJEROS/pgas#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
 }
