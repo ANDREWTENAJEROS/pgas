@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<title>Philips Glass and Aluminum Sales</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="pgas.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.andrew-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.andrew-half img:hover{opacity:1}
+</style>
+<body>
+
+  <!-- Sidenav/menu -->
+  <nav class="andrew-sidenav andrew-red andrew-collapse andrew-top andrew-large andrew-padding" style="z-index:3;width:250px;" id="mySidenav"><br>
+    <a href="javascript:void(0)" onclick="andrew_close()" class="andrew-padding-large andrew-hide-large andrew-display-topleft andrew-hover-white" style="width:100%;font-size:22px">Close Menu</a>
+    <div class="andrew-container">
+
+      <!-- NAVBAR TITLE WIDE-->
+
+      <h4 class="andrew-padding-2"><div class="col s3"> <img src="img/pgas logo.png" style="width:100%" onclick="onClick(this)" alt="glass"></h4> 
+    </div>
+    <a href="#" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Home</a> 
+    <a href="#ABOUT US" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">About us</a> 
+    <a href="#why" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Why Us</a> 
+    <a href="#designers" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Designers</a> 
+    <a href="#contact" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Contact</a>
+
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header class="andrew-container andrew-top andrew-hide-large andrew-red andrew-large andrew-padding">
+    <a href="javascript:void(0)" class="andrew-btn andrew-red andrew-border andrew-border-white andrew-margin-right" onclick="andrew_open()">☰</a>
+    <span>Philips Glass</span> 
+
+  </header>
+
+  <!-- Overlay effect when opening sidenav on small screens -->
+  <div class="andrew-overlay andrew-hide-large" onclick="andrew_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="andrew-main" style="margin-left:250px;margin-right:-18px">
+
+    <!-- Header -->
+  
+      <h1 style="background-color:#0e2468;padding-left: 30px;">Phillips Glass</h1>
+      <!--<h1 class="andrew-xxlarge"><b>Philips Glass </b></h1>-->
+  
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="andrew-modal andrew-black andrew-padding-0" onclick="this.style.display='none'">
+      <span class="andrew-closebtn andrew-text-white andrew-opacity andrew-hover-opacity-off andrew-xxlarge andrew-container andrew-display-topright">×</span>
+      <div class="andrew-modal-content andrew-animate-zoom andrew-center andrew-transparent andrew-padding-64">
+        <img id="img01" class="andrew-image">
+        <p id="caption"></p>
+      </div>
+    </div>
+
+<div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/6.png"> 
+        <div class="caption center-align">
+          <h3>Who We are</h3>
+          <h5 class="light grey-text text-lighten-3">Private company.<br>Commenced in 1970's <br>founded by Mr. Felipe Tan.<br>Davao based with national capability.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> 
+        <div class="caption left-align">
+          <h3>Our Purpose</h3>
+          <h5 class="light grey-text text-lighten-3">Uncompromising Integrity<br>Innovation<br>Operational Excellence</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> 
+        <div class="caption right-align">
+          <h3>Our Offering</h3>
+          <h5 class="light grey-text text-lighten-3">Cost effective windows and doors.<br>Custom designed glass and facades.<br>Glass projects and maintinace.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="andrew-container" style="margin-top:0px" id="pgas">
+    <div>
+   <div class="andrew-container" id="ABOUT US" style="margin-top:20px">
+      
+      <h1 class="andrew-xxxlarge andrew-text-red"><b>About us</b></h1>
+
+      <ul class="collapsible" data-collapsible="accordion">
+    
+    <li>
+      <div class="collapsible-header active"><i class="material-icons">work</i>Main Office</div>
+      <div class="collapsible-body"><div class="andrew-row-padding">
+      <div class="andrew-full">
+        <div class="row">
+          <div class="col s6"> <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
+          <div class="col s6"> <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
+        </div>
+      </div>
+    </div></div>
+    </li>
+    <li>
+      <div class="collapsible-header "><i class="material-icons">business</i>Warehouse</div>
+      <div class="collapsible-body"><div class="andrew-full">
+        <div class="row">
+          <div class="col s6"> <img src="img/2.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
+          <div class="col s6"> <img src="img/2.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
+        </div>
+        <div class="row">
+          <div class="col s6"> <img src="img/2.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
+          <div class="col s6"> <img src="img/2.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
+        </div>
+      </div></div>
+    </li>
+  </ul>
+    </div>
+</div>
+
+
+    <!-- why us -->
+    <div class="andrew-container" id="why" style="margin-top:75px ">
+      <h1 class="andrew-xxxlarge andrew-text-red"><b>Why Philips Glass?</b></h1>
+      <h5>      Philips Glass provides a dedicated team for the wholesale, retail and project slaes.</h5>
+      <h5>      With the valuable combination of experience and energy of our team covers sales concept to growth development. Since the aluminum industry in the Philippines is growing and stabilizing, we tend to uphold the consumers by giving them convinience. Because of our commitment, professionalism, reability and service excellence are focused.
+      </h5>
+      <h5>     We believe it is this approach that has earned us a loyal customer base, the respect of our peers, as well as and massive grouth since our inception</h5>
+    </div>
+
+    <!-- Designers -->
+    <div class="andrew-container" id="designers" style="margin-top:75px">
+      <h1 class="andrew-xxxlarge andrew-text-red"><b>Designers.</b></h1>
+      <hr style="width:50px;border:5px solid black" class="andrew-round">
+      <p>The best team in the world.</p>
+      <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p><b>Our designers are thoughtfully chosen</b>:</p>
+    </div>
+
+    <!-- The Team -->
+    <div class="andrew-row-padding andrew-grayscale">
+      <div class="andrew-col m4 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="/andrewimages/team2.jpg" alt="John" style="width:100%">
+          <div class="andrew-container">
+            <h3>John Doe</h3>
+            <p class="andrew-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m4 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="/andrewimages/team1.jpg" alt="Jane" style="width:100%">
+          <div class="andrew-container">
+            <h3>Jane Doe</h3>
+            <p class="andrew-opacity">Designer</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m4 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="/andrewimages/team3.jpg" alt="Mike" style="width:100%">
+          <div class="andrew-container">
+            <h3>Mike Ross</h3>
+            <p class="andrew-opacity">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="andrew-row-padding andrew-grayscale">
+      <div class="andrew-col m4 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="/andrewimages/team2.jpg" alt="John" style="width:100%">
+          <div class="andrew-container">
+            <h3>John Doe</h3>
+            <p class="andrew-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m4 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="/andrewimages/team1.jpg" alt="Jane" style="width:100%">
+          <div class="andrew-container">
+            <h3>Jane Doe</h3>
+            <p class="andrew-opacity">Designer</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m4 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="/andrewimages/team3.jpg" alt="Mike" style="width:100%">
+          <div class="andrew-container">
+            <h3>Mike Ross</h3>
+            <p class="andrew-opacity">Architect</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="andrew-container" id="contact" style="margin-top:75px">
+      <h1 class="andrew-xxxlarge andrew-text-red"><b>Contact.</b></h1>
+      <hr style="width:50px;border:5px solid black" class="andrew-round">
+      <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="andrew-group">
+          <label>Name</label>
+          <input class="andrew-input andrew-border" type="text" name="Name" required>
+        </div>
+        <div class="andrew-group">
+          <label>Email</label>
+          <input class="andrew-input andrew-border" type="text" name="Email" required>
+        </div>
+        <div class="andrew-group">
+          <label>Message</label>
+          <input class="andrew-input andrew-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="andrew-btn-block andrew-padding-large andrew-red andrew-margin-bottom">Send Message</button>
+      </form>  
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+
+  <script>
+// Script to open and close sidenav
+function andrew_open() {
+  document.getElementById("mySidenav").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function andrew_close() {
+  document.getElementById("mySidenav").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+
+<!-- Compiled and minified 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">CSS -->
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+        <!-- Compiled and minified JavaScript--> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
+        <!--Materializecss Slider-->
+        <script>
+            $(document).ready(function () {
+                $('.slider').slider({full_width: true});
+            });
+        </script></body>
+</html>
