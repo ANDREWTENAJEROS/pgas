@@ -8,7 +8,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+
+
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif;}
+/*header font color*/
 body {font-size:16px;}
 .andrew-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
 .andrew-half img:hover{opacity:1}
@@ -17,8 +20,8 @@ body {font-size:16px;}
 
   <!-- Sidenav/menu -->
   <nav class="andrew-sidenav andrew-red andrew-collapse andrew-top andrew-large andrew-padding" style="z-index:3;width:250px;" id="mySidenav"><br>
-    <a href="javascript:void(0)" onclick="andrew_close()" class="andrew-padding-large andrew-hide-large andrew-display-topleft andrew-hover-white" style="width:100%;font-size:22px">Close Menu</a>
-    <div class="andrew-container">
+    <a href="javascript:void(0)" onclick="andrew_close()" class="andrew-padding andrew-hide-large andrew-display-topleft andrew-hover-white" style="width:100%;font-size:22px">Close Menu</a>
+    <div class="andrew-container" style="    padding-top: 20px;">
 
       <!-- NAVBAR TITLE WIDE-->
 
@@ -27,7 +30,7 @@ body {font-size:16px;}
     <a href="#" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Home</a> 
     <a href="#ABOUT US" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">About us</a> 
     <a href="#why" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Why Us</a> 
-    <a href="#designers" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Designers</a> 
+    <a href="#gaa" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Applications</a> 
     <a href="#contact" onclick="andrew_close()" class="andrew-padding-2 andrew-hover-white">Contact</a>
 
   </nav>
@@ -39,16 +42,16 @@ body {font-size:16px;}
 
   </header>
 
-  <!-- Overlay effect when opening sidenav on small screens -->
+  <!-- Overlay effect when opening sidenav on small screens......................................................... -->
   <div class="andrew-overlay andrew-hide-large" onclick="andrew_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
   <!-- !PAGE CONTENT! -->
   <div class="andrew-main" style="margin-left:250px;margin-right:-18px">
 
-    <!-- Header -->
+    <!-- Header..................................................................................................... -->
+
   
-      <h1 style="background-color:#0e2468;padding-left: 30px;">Phillips Glass</h1>
-      <!--<h1 class="andrew-xxlarge"><b>Philips Glass </b></h1>-->
+      <h1 style="background-color:#0e2450;padding-left: 30px;" class="andrew-text-white" >Phillips Glass </h1>
   
 
     <!-- Modal for full size images on click-->
@@ -70,14 +73,14 @@ body {font-size:16px;}
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> 
+        <img src="img/ourpurpose.png"> 
         <div class="caption left-align">
-          <h3>Our Purpose</h3>
-          <h5 class="light grey-text text-lighten-3">Uncompromising Integrity<br>Innovation<br>Operational Excellence</h5>
+          <h3 class="andrew-text-black">Our Purpose</h3>
+          <h5 class="andrew-text-black">Uncompromising Integrity<br>Innovation<br>Operational Excellence</h5>
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> 
+        <img src="img/ouroffering.png"> 
         <div class="caption right-align">
           <h3>Our Offering</h3>
           <h5 class="light grey-text text-lighten-3">Cost effective windows and doors.<br>Custom designed glass and facades.<br>Glass projects and maintinace.</h5>
@@ -85,17 +88,82 @@ body {font-size:16px;}
       </li>
     </ul>
   </div>
+  
+
+
+
+  <div class="andrew-row-padding" style="padding-left: 30px;padding-right: 30px;padding-top: 39px">
+    <div class="andrew-col m3 andrew-margin-bottom">
+      <p style="text-align:center">
+        <i class=" small material-icons">visibility</i>
+          <h3 class="andrew-text-black " style="text-align:center">Design
+          </h3>
+            <p style="text-align:center">Expertise in design to push the bounderies of what's possible.
+            </p>
+          </p>
+        </div>
+
+    <div class="andrew-col m3 andrew-margin-bottom">      
+      <p style="text-align:center">
+        <i class=" small material-icons" >thumb_up</i>
+          <h3 class="andrew-text-black" style="text-align:center">Ease
+          </h3>
+          <p style="text-align:center">Proactive problem solving and communication
+          </p>
+        </p>
+      </div>
+
+
+    <div class="andrew-col m3 andrew-margin-bottom">
+      
+        <p style="text-align:center">
+          <i class="small material-icons"; style="width: 30px;">done_al
+          </i>
+        </p>
+          <h3 class="andrew-text-black" style="text-align:center">Quality
+          </h3>
+          <p style="text-align:center">When it comes to providing and installing QUALITY shower doors and mirrors, windows, auto windshields and other glass products, the choice is clear: PHILIPS GLASS & ALUMINUM Sales Inc.</p>
+        
+      </div>
+
+
+    <div class="andrew-col m3 andrew-margin-bottom">
+      <p style="text-align:center">
+        <i class=" small material-icons">perm_identity</i>
+          <h3 class="andrew-text-black" style="text-align:center">Team
+          </h3>
+          <p style="text-align:center">A Team of experts from concept to completion
+          </p>
+        </div>
+      </p>
+  </div>
+
+<!-- why us..................................................................................................... -->
+    <div class="andrew-container" id="why"style="margin-top:50px;padding-left: 30px;padding-right: 30px;">
+
+
+      <h1 class="andrew-xxxlarge andrew-text-black"><b>Why Philips Glass?</b></h1>
+      
+      <p class="andrew-text-black">Philips Glass provides a dedicated team for the wholesale, retail and project slaes.</p>
+      <p class="andrew-text-black">      With the valuable combination of experience and energy of our team covers sales concept to growth development. Since the aluminum industry in the Philippines is growing and stabilizing, we tend to uphold the consumers by giving them convinience. Because of our commitment, professionalism, reability and service excellence are focused.
+      </p>
+      <p class="andrew-text-black">     We believe it is this approach that has earned us a loyal customer base, the respect of our peers, as well as and massive grouth since our inception</p>
+    </div>
+
   <div class="andrew-container" style="margin-top:0px" id="pgas">
     <div>
    <div class="andrew-container" id="ABOUT US" style="margin-top:20px">
       
-      <h1 class="andrew-xxxlarge andrew-text-red"><b>About us</b></h1>
+      <h1 class="andrew-xxxlarge andrew-text-black"><b>About us</b></h1>
 
-      <ul class="collapsible" data-collapsible="accordion">
+      <ul class="collapsible" data-collapsible="accordion" style="
+    padding-left: 0px;" style="
+    padding-top: 0px;">
     
+
     <li>
       <div class="collapsible-header active"><i class="material-icons">work</i>Main Office</div>
-      <div class="collapsible-body"><div class="andrew-row-padding">
+      <div class="collapsible-body"><div class="andrew-row-padding" style="padding-top: 20px;">
       <div class="andrew-full">
         <div class="row">
           <div class="col s6"> <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass"></div>
@@ -122,95 +190,162 @@ body {font-size:16px;}
 </div>
 
 
-    <!-- why us -->
-    <div class="andrew-container" id="why" style="margin-top:75px ">
-      <h1 class="andrew-xxxlarge andrew-text-red"><b>Why Philips Glass?</b></h1>
-      <h5>      Philips Glass provides a dedicated team for the wholesale, retail and project slaes.</h5>
-      <h5>      With the valuable combination of experience and energy of our team covers sales concept to growth development. Since the aluminum industry in the Philippines is growing and stabilizing, we tend to uphold the consumers by giving them convinience. Because of our commitment, professionalism, reability and service excellence are focused.
-      </h5>
-      <h5>     We believe it is this approach that has earned us a loyal customer base, the respect of our peers, as well as and massive grouth since our inception</h5>
+    <!-- application..................................................................................................... -->
+    <div class="andrew-container" id="gaa" style="margin-top:75px">
+      <h1 class="andrew-xxxlarge andrew-text-black" style="padding-bottom: 30px;"><b>Glass & Aluminum Applications</b></h1> 
     </div>
 
-    <!-- Designers -->
-    <div class="andrew-container" id="designers" style="margin-top:75px">
-      <h1 class="andrew-xxxlarge andrew-text-red"><b>Designers.</b></h1>
-      <hr style="width:50px;border:5px solid black" class="andrew-round">
-      <p>The best team in the world.</p>
-      <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
-      <p><b>Our designers are thoughtfully chosen</b>:</p>
+    
+    <div>
+    <div class="andrew-row-padding">
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Awing window<p>
+          </div>
+        </div>
+      </div> 
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Balcony<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Canopy<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Casement Window<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Curtain Wall<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Fixed Glass<p>
+          </div>
+        </div>
+      </div>
+      
+
+    <div class="andrew-row-padding">
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Frameless Sliding Door<p>
+          </div>
+        </div>
+      </div> 
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Frameless Swing Door<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Fully Framed Sliding Door<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Fully Framed Swing Door<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Louver Window<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Pivot Door<p>
+          </div>
+        </div>
+      </div>
+      
+    <div class="andrew-row-padding">
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Shower Enclosure<p>
+          </div>
+        </div>
+      </div> 
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Sliding Window<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Spider Connection<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Stair Railling<p>
+          </div>
+        </div>
+      </div>
+      <div class="andrew-col m2 andrew-margin-bottom">
+        <div class="andrew-light-grey">
+          <img src="img/1.jpg" style="width:100%" onclick="onClick(this)" alt="glass">
+          <div class="andrew-container">
+            <p andrew-text-black>Trellis and Lattice <p>
+          </div>
+        </div>
+      </div>
+      
     </div>
 
-    <!-- The Team -->
-    <div class="andrew-row-padding andrew-grayscale">
-      <div class="andrew-col m4 andrew-margin-bottom">
-        <div class="andrew-light-grey">
-          <img src="/andrewimages/team2.jpg" alt="John" style="width:100%">
-          <div class="andrew-container">
-            <h3>John Doe</h3>
-            <p class="andrew-opacity">CEO & Founder</p>
-            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          </div>
-        </div>
-      </div>
-      <div class="andrew-col m4 andrew-margin-bottom">
-        <div class="andrew-light-grey">
-          <img src="/andrewimages/team1.jpg" alt="Jane" style="width:100%">
-          <div class="andrew-container">
-            <h3>Jane Doe</h3>
-            <p class="andrew-opacity">Designer</p>
-            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          </div>
-        </div>
-      </div>
-      <div class="andrew-col m4 andrew-margin-bottom">
-        <div class="andrew-light-grey">
-          <img src="/andrewimages/team3.jpg" alt="Mike" style="width:100%">
-          <div class="andrew-container">
-            <h3>Mike Ross</h3>
-            <p class="andrew-opacity">Architect</p>
-            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="andrew-row-padding andrew-grayscale">
-      <div class="andrew-col m4 andrew-margin-bottom">
-        <div class="andrew-light-grey">
-          <img src="/andrewimages/team2.jpg" alt="John" style="width:100%">
-          <div class="andrew-container">
-            <h3>John Doe</h3>
-            <p class="andrew-opacity">CEO & Founder</p>
-            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          </div>
-        </div>
-      </div>
-      <div class="andrew-col m4 andrew-margin-bottom">
-        <div class="andrew-light-grey">
-          <img src="/andrewimages/team1.jpg" alt="Jane" style="width:100%">
-          <div class="andrew-container">
-            <h3>Jane Doe</h3>
-            <p class="andrew-opacity">Designer</p>
-            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          </div>
-        </div>
-      </div>
-      <div class="andrew-col m4 andrew-margin-bottom">
-        <div class="andrew-light-grey">
-          <img src="/andrewimages/team3.jpg" alt="Mike" style="width:100%">
-          <div class="andrew-container">
-            <h3>Mike Ross</h3>
-            <p class="andrew-opacity">Architect</p>
-            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact -->
+
+    <!-- Contact..................................................................................................... -->
     <div class="andrew-container" id="contact" style="margin-top:75px">
-      <h1 class="andrew-xxxlarge andrew-text-red"><b>Contact.</b></h1>
+      <h1 class="andrew-xxxlarge andrew-text-black"><b>Contact.</b></h1>
       <hr style="width:50px;border:5px solid black" class="andrew-round">
       <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
       <form action="/action_page.php" target="_blank">
@@ -230,7 +365,7 @@ body {font-size:16px;}
       </form>  
     </div>
 
-    <!-- End page content -->
+    <!-- End page content..................................................................................................... -->
   </div>
 
 
