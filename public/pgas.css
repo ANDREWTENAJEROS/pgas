@@ -304,8 +304,8 @@
 			.andrew-pink,.andrew-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
 			.andrew-purple,.andrew-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
 			.andrew-deep-purple,.andrew-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
-			/* NAV SIDE COLOR*/
-			.andrew-red,.andrew-hover-red:hover{color:#fff!important;background-color:#0e2468!important}
+			/* NAV color SIDE COLOR darkblue 0e2468*/
+			.andrew-red,.andrew-hover-red:hover{color:#fff!important;background-color:#87ceeb!important}
 			.andrew-sand,.andrew-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
 			.andrew-teal,.andrew-hover-teal:hover{color:#fff!important;background-color:#009688!important}
 			.andrew-yellow,.andrew-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
@@ -335,8 +335,11 @@
 			.andrew-text-pink,.andrew-hover-text-pink:hover{color:#e91e63!important}
 			.andrew-text-purple,.andrew-hover-text-purple:hover{color:#9c27b0!important}
 			.andrew-text-deep-purple,.andrew-hover-text-deep-purple:hover{color:#673ab7!important}
-			/* Nav color */
-			.andrew-text-red,.andrew-hover-text-red:hover{color:#87ceeb!important}
+			/* Nav color darkblue */
+			.andrew-text-red,.andrew-hover-text-red:hover{color:#ffffff!important}
+
+			.andrew-text-topcolor,.andrew-hover-text-topcolor:hover{color:#0e2450!important}
+			/*dark blue 87ceeb light blue 0e2450*/
 			.andrew-text-sand,.andrew-hover-text-sand:hover{color:#fdf5e6!important}
 			.andrew-text-teal,.andrew-hover-text-teal:hover{color:#009688!important}
 			.andrew-text-yellow,.andrew-hover-text-yellow:hover{color:#d2be0e!important}
